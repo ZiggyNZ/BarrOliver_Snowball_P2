@@ -6,7 +6,9 @@ The game is mechanically simple, player 1 (pink) has the ability to jump, and pl
 
 The level structure is relatively linear, the entire map travels in one direction and each branching path is painted with each players respective colour.
 
-App has been built to support Windows and Mac. It can be found under Snowball/Snowball.app.
+In the main directory you can find:
+* Exported application (supporting Mac and Windows)
+* Documentation Video
 
 The most techinically challenging part is getting the controls down. This includes understading the physhics, and how each players ability functions.
 
