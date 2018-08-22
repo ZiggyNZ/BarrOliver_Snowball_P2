@@ -1,4 +1,5 @@
 # Snowball
+Snowball is a Marble Madness inspired co-operative platform/puzzle game.
 
 ## Controls:
 * Player 1:
