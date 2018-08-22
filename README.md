@@ -10,6 +10,8 @@ App has been built to support Windows and Mac. It can be found under Snowball/Sn
 
 The most techinically challenging part is getting the controls down. This includes understading the physhics, and how each players ability functions.
 
+***Note:*** *The controls are currently not displayed in-game, it is recommended to read them below:*
+
 ## Controls:
 * Player 1 (left screen):
   * Movement: W/A/S/D
