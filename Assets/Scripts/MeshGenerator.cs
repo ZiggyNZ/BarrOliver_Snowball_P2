@@ -6,12 +6,10 @@ public class MeshGenerator : MonoBehaviour {
 
 	void Start () {
 		GameObject map = GameObject.Find("Map");
-		MeshFilter[] _filters = map.GetComponentsInChildren<MeshFilter>();
-		foreach(MeshFilter _filter in _filters) {
-			var collider = _filter.gameObject.AddComponent<MeshCollider>();
-			collider.sharedMesh = _filter.mesh;
+		MeshFilter[] filters = map.GetComponentsInChildren<MeshFilter>();
+		foreach(MeshFilter filter in filters) {
+			var collider = filter.gameObject.AddComponent<MeshCollider>();
+			collider.sharedMesh = filter.mesh;
 		}
 	}
-	
-	void Update () {}
 }

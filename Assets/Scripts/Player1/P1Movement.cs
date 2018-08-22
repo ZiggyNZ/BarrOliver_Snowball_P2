@@ -30,7 +30,7 @@ public class P1Movement : MonoBehaviour {
 			xForce -= moveForce;
 			zForce -= moveForce;
 		}
-		Vector3 force = new Vector3(xForce, 0.0f, zForce);
+		Vector3 force = new Vector3(xForce, -5f, zForce);
 		body.AddForce(force);
 
 		//TODO slow ball down so it everntually stops rolling

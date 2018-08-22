@@ -53,7 +53,7 @@
      <Compile Include="Assets\Scripts\Player1\Jump.cs" />
      <Compile Include="Assets\Scripts\Player1\P1Camera.cs" />
      <Compile Include="Assets\Scripts\Player1\P1Movement.cs" />
-     <Compile Include="Assets\Scripts\SingleCameraScript.cs" />
+     <Compile Include="Assets\Scripts\Respawn.cs" />
      <Compile Include="Assets\Scripts\Wall1Button.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
